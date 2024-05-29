@@ -88,7 +88,8 @@ input {
 }
 
 .error-message {
-  color: 1px solid var(--red) !important;
+  color: red !important;
+  text-align: right;
   display: none;
   font-size: 12px;
   margin-top: -10px;
@@ -144,20 +145,6 @@ button {
   font-weight: 600;
 }
 
-/* small {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--grayish-blue);
-  gap: 0.25rem;
-}
-
-small span {
-  color: var(--red);
-  font-weight: 600;
-  cursor: pointer;
-} */
-
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -209,8 +196,4 @@ small span {
   button {
     font-size: 0.875rem;
   }
-
-  /* small {
-    font-size: 0.75rem;
-  } */
 }
